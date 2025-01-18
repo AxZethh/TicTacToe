@@ -1,0 +1,26 @@
+
+
+
+.buttonStyle {
+    -fx-background-color: radial-gradient(center 50% 50%, radius 85%, #4c4c4c, #1d1d1d);
+    -fx-background-radius: 5;
+    -fx-border-color: gray;
+    -fx-border-width: 2;
+    -fx-border-radius: 4;
+    -fx-font-weight: bold;
+    -fx-font-family: Monospaced;
+    -fx-text-fill: White;
+    -fx-font-size: 24px;
+
+}
+
+.startBtnStyle {
+    -fx-font-size: 28px;
+}
+.startBtnStyle:hover {
+
+}
+
+.resetBtnStyle {
+    -fx-font-size: 18px;
+}
