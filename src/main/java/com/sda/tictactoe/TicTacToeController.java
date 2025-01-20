@@ -85,7 +85,7 @@ public class TicTacToeController {
 
     public void activeMatch(ActionEvent event) {
         if(event.getSource() == startBtn && !activeGame) {
-            if(playerValue.isBlank()|| playerValue.isEmpty()) {
+            if(playerValue.isBlank() || playerValue.isEmpty()) {
                 setPlayerValue(event);
             }
             activeGame = true;
